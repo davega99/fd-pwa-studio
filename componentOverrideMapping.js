@@ -13,6 +13,7 @@ module.exports = {
     [`${veniaUiPackagePath}/lib/components/Head/index.js`]: 'src/components/Head.js',
     [`${veniaUiPackagePath}/lib/components/Newsletter/newsletter.js`]: 'src/components/NewsLetter.js',
     [`${veniaUiPackagePath}/lib/components/ContactPage/contactLink.js`]: 'src/components/ContactLink.js',
+    [`${veniaUiPackagePath}/lib/components/Header/currencySwitcher.js`]: 'src/components/CurrencySwitcher.js',
 
     [`${veniaUiPackagePath}/lib/RootComponents/CMS/cms.js`]: 'src/components/CMS.js',
 
