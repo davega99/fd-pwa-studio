@@ -1,9 +1,9 @@
 const veniaUiPackagePath = '@magento/venia-ui';
 
 module.exports = {
-    // [`${veniaUiPackagePath}/lib/components/Navigation/navigation.js`]: 'src/components/Navigation.js',
-    // [`${veniaUiPackagePath}/lib/components/MegaMenu/megaMenu.js`]: 'src/components/MegaMenu.js',
-    // [`${veniaUiPackagePath}/lib/components/MiniCart/miniCart.js`]: 'src/components/MiniCart.js',
+    [`${veniaUiPackagePath}/lib/components/Navigation/navigation.js`]: 'src/components/Navigation.js',
+    [`${veniaUiPackagePath}/lib/components/MegaMenu/megaMenu.js`]: 'src/components/MegaMenu.js',
+    [`${veniaUiPackagePath}/lib/components/MiniCart/miniCart.js`]: 'src/components/MiniCart.js',
     [`${veniaUiPackagePath}/lib/components/RichContent/richContent.js`]: 'src/components/RichContent.js',
     [`${veniaUiPackagePath}/lib/components/HomePage/index.js`]: 'src/components/HomePage.js',
     [`${veniaUiPackagePath}/lib/components/Routes/routes.js`]: 'src/components/Routes.js',
