@@ -1,4 +1,5 @@
 const veniaUiPackagePath = '@magento/venia-ui';
+const experiencePlatform = '@magento/experience-platform-connector';
 
 module.exports = {
     [`${veniaUiPackagePath}/lib/components/Navigation/navigation.js`]: 'src/components/Navigation.js',
@@ -13,5 +14,9 @@ module.exports = {
     [`${veniaUiPackagePath}/lib/components/Newsletter/newsletter.js`]: 'src/components/NewsLetter.js',
     [`${veniaUiPackagePath}/lib/components/ContactPage/contactLink.js`]: 'src/components/ContactLink.js',
 
-    [`${veniaUiPackagePath}/lib/RootComponents/CMS/cms.js`]: 'src/components/CMS.js'
+    [`${veniaUiPackagePath}/lib/RootComponents/CMS/cms.js`]: 'src/components/CMS.js',
+
+
+    // Experience Platform Connector
+    [`${experiencePlatform}/src/hooks/useExtensionContext.js`]: 'src/ExperiencePlatformConnector/useExtensionContext.js',
 };
