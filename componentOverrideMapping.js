@@ -15,10 +15,11 @@ module.exports = {
     [`${veniaUiPackagePath}/lib/components/ContactPage/contactLink.js`]: 'src/components/ContactLink.js',
     [`${veniaUiPackagePath}/lib/components/Header/currencySwitcher.js`]: 'src/components/CurrencySwitcher.js', // disabed
     [`${veniaUiPackagePath}/lib/components/Header/storeSwitcher.js`]: 'src/components/StoreSwitcher.js', // disabed
+    [`${veniaUiPackagePath}/lib/components/Logo/logo.js`]: 'src/components/Logo.js',
+    [`${veniaUiPackagePath}/lib/components/Footer/footer.js`]: 'src/components/Footer.js',
 
     [`${veniaUiPackagePath}/lib/RootComponents/CMS/cms.js`]: 'src/components/CMS.js',
 
-
     // Experience Platform Connector
-    [`${experiencePlatform}/src/hooks/useExtensionContext.js`]: 'src/ExperiencePlatformConnector/useExtensionContext.js',
+    [`${experiencePlatform}/src/hooks/useExtensionContext.js`]: 'src/ExperiencePlatformConnector/useExtensionContext.js'
 };

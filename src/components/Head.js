@@ -7,47 +7,45 @@ import { Helmet } from 'react-helmet-async';
 Helmet.defaultProps.defer = false;
 
 export const Link = props => {
-    const { children, ...tagProps } = props;
+    const { children } = props;
     return (
         <Helmet>
-            <link {...tagProps}>{children}</link>
+            <link>{children}</link>
         </Helmet>
     );
 };
 
 export const Meta = props => {
-    const { children, ...tagProps } = props;
+    const { children } = props;
     return (
         <Helmet>
-            <meta {...tagProps}>{children}</meta>
+            <meta>{children}</meta>
         </Helmet>
     );
 };
 
 export const Style = props => {
-    const { children, ...tagProps } = props;
+    const { children } = props;
     return (
         <Helmet>
-            <style {...tagProps}>{children}</style>
+            <style>{children}</style>
         </Helmet>
     );
 };
 
 export const Title = props => {
-    const { children, ...tagProps } = props;
+    const { children } = props;
     return (
         <Helmet>
-            <title {...tagProps}>{children}</title>
+            <title>{children}</title>
         </Helmet>
     );
 };
 
 export const StoreTitle = props => {
-    const { children, ...tagProps } = props;
-
     return (
         <Helmet>
-            <title {...tagProps}>Floral Delights PH</title>
+            <title>Floral Delights PH</title>
         </Helmet>
     );
 };
