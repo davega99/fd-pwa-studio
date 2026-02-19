@@ -5,13 +5,12 @@ const Logo = React.memo(() => {
     return (
         <Link to="/" className="flex items-center" aria-label="Go to homepage">
             <img
-                src={`/venia-static/icons/venia_maskable_512.png`}
+                src={`/venia-static/icons/venia_circle_144.png`}
                 alt="Store Logo"
-                className="h-18 w-auto"
                 loading="eager"
                 fetchpriority="high"
-                width="180"
-                height="72"
+                width="20"
+                height="20"
                 decoding="sync"
             />
         </Link>
